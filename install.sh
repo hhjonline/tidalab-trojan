@@ -52,8 +52,8 @@ rm -rf $folder
 mkdir $folder
 cd $folder
 wget https://github.com/tokumeikoi/tidalab-trojan/releases/latest/download/tidalab-trojan
-wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.1/trojan-go-linux-amd64.zip
-unzip trojan-go-linux-amd64.zip
+wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.1/trojan-go-linux-armv7.zip
+unzip trojan-go-linux-armv7.zip
 chmod 755 *
 
 if ls /root/.cert | grep "key" > /dev/null
